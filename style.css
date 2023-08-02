@@ -102,7 +102,8 @@ section{
     vertical-align: middle;
 }
 .down-arrow{
-    position: absolute;
+    position: fixed;
+    z-index: 999;
     top: 85%;
     right: 11%;
 }
@@ -214,7 +215,6 @@ header.sticky{
     color: #565656;
     font-size: 14px;
     font-weight: 400;
-    /* text-transform: capitalize; */
     line-height: 1.5;
     margin-bottom: 10px;
     cursor: pointer;
